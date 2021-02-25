@@ -1,4 +1,7 @@
 .header {
   display: flex;
   justify-content: space-between;
+  width: calc(100% - 2rem);
+  height: calc(10vh - 2rem);
+  padding: 1rem;
 }

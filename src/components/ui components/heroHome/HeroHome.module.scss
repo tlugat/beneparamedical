@@ -1,0 +1,34 @@
+@import '../../../assets/styles/global';
+
+.hero {
+  position: relative;
+  width:100%;
+  height: 45vh;
+  z-index: -1;
+  &__picture{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  &__ellipse {
+  width: 150vw;
+  height: 50vh;
+  background: $main-color;
+  border-radius: 50%;
+  position: absolute;
+  top: -40%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+}
+.heroWrapper {
+  width: 100%;
+}
+
+.dots {
+  position: absolute;
+  bottom: 6rem;
+  right: 1rem;
+}
