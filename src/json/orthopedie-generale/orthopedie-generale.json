@@ -1,0 +1,66 @@
+{
+  "items": [
+  {
+    "title": "Membres supérieurs",
+    "accroche": "Nous vous proposons du matériel orthopédique adapté à votre pathologie aux membres supérieurs.",
+    "list": ["Orthèse d'imobilisation", "Orthèse pour poignet/pouce", "Orthèse pour poignet/main", "Orthèse en thermoplastie", "Echarpe d'épaule universelle", "Gilet d'immobilisation", "Orthèse de l'épaule", "Orthèse de la clavicule", "Gilet orthopédique", "Attelle / Bandage claviculaire"], 
+    "img": {
+      "src": "membres-sup-small.png",
+      "alt": ""
+    }
+  },
+  {
+    "title": "Les cervicales",
+    "accroche": "Nous vous proposons du matériel orthopédique adapté a votre pathologie aux cervicales.",
+    "list": ["Collier cervical", "Minerve"],
+    "img": {
+      "src": "cervicales-small.png",
+      "alt": ""
+    }
+  },
+  {
+    "title": "Le dos",
+    "accroche": "Nous vous proposons du matériel orthopédique adapté a votre pathologie au dos.",
+    "list": ["Ceinture de soutien lombaire", "Ceinture de maintien lombaire", "Ceinture d'immobilisation"],
+    "img": {
+      "src": "dos-small.png",
+      "alt": ""
+    }
+  },
+  {
+    "title": "L'abdomen",
+    "accroche": "Nous vous proposons du matériel orthopédique adapté a votre pathologie a l’abdomen.",
+    "list": ["Ceinture de soutien abdominal", "Ceinture de soutien lombo-abdominal", "Ceinture de maintien abdomial sur mesure", "Bandage pour hernie"],
+    "img": {
+      "src": "abdomen-small.png",
+      "alt": ""
+    }
+  },
+  {
+    "title": "La hanche",
+    "accroche": "Nous vous proposons du matériel orthopédique adapté à votre pathologie aux hanches",
+    "list": ["Coussin d'abduction (spécifiquement destinés aux nouveaux-nés", "Harnais de Pavlick (spécifiquement destinés à l'enfant"],
+    "img": {
+      "src": "hanche-small.png",
+      "alt": ""
+    }
+  },
+  {
+    "title": "Membres inférieurs",
+    "accroche": "Nous vous proposons du matériel orthopédique adapté a votre pathologie aux membres inférieurs.",
+    "list": ["Genouillère Standard", "Genouillère Rotulienne", "Genouillère Ligamentaire", "Orthèse de genou articulée", "Attelle d'immobilisation", "Chevillère élastique de contention", "Chevillère ligamentaire", "Attelle stabilisatrice"],
+    "img": {
+      "src": "membres-inf-small.png",
+      "alt": ""
+    }
+  },
+   {
+    "title": "Contention veineuse",
+    "accroche": "Nous vous proposons du matériel orthopédique de contention veineuse adapté a votre pathologie.",
+    "list": ["Bas de contention", "Collant de contention", "Chaussette de contention", "Vêtement compressif"],
+    "img": {
+      "src": "contention-veineuse-small.png",
+      "alt": ""
+    }
+  }]
+}

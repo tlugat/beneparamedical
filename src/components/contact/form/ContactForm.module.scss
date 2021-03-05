@@ -1,0 +1,24 @@
+@import '../../../assets//styles/global';
+
+.formWrapper {
+  padding: 2rem 1rem;
+  background: rgba(94, 112, 177, 0.09);
+  
+
+  &__title {
+    font-size: 24px;
+    color: $second-color;
+  }
+  &__text {
+    color: #8A8A8A;
+  }
+}
+
+
+.form {
+  &__group {
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+  }
+}

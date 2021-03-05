@@ -1,12 +1,18 @@
 import {useState} from 'react';
 import {BrowserRouter as Router, Route} from 'react-router-dom'
+
 import Navbar from '../navbar/Navbar';
 import Header from '../header/Header'
 import Home from "../home/Home";
+import PodoOrthese from '../podo-orthese/Podo-orthese';
+import OrthopedieGenerale from '../orthopedie-generale/OrhtopedieGenerale';
+import Footer from '../footer/Footer';
+import Contact from '../contact/Contact';
+
 import styles from '../app/App.module.scss'
 
-function App() {
 
+function App() {
   const [menuIsActive, setMenuIsActive] = useState(false);
 
   const toggleMenu = () => {
@@ -16,11 +22,15 @@ function App() {
 
 
   return (
-    <div className={ menuIsActive ? styles.AppOff : styles.App}>
+    <div style={menuIsActive ? {height: 100 + 'vh'} : {height: 'auto'}} className={styles.App}>
       <Router>
         <Header toggleMenu={toggleMenu}/>
         <Navbar toggleMenu={toggleMenu} menuIsActive={menuIsActive}/>
-        <Route exact path="/"><Home/></Route>
+        <Route exact path="/" component={Home}></Route>
+        <Route path="/podo-orthese" component={PodoOrthese}></Route>
+        <Route path="/orthopedie-generale" component={OrthopedieGenerale}></Route>
+        <Route path="/contact" component={Contact}></Route>
+        <Footer/>
       </Router>
       
     </div>
