@@ -1,0 +1,37 @@
+.footer {
+  background-color: #434343;
+  color: #F6F6F6;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: calc(60vh - 7rem);
+  width: calc(100% - 4rem);
+  padding: 2rem;  
+  a {
+    color: #F6F6F6;
+  }
+  &__logo {
+    align-self: center;
+  }
+  &__member {
+    p {
+      margin-bottom: 0.5rem;
+    }
+  }
+  &__nav {
+    p {
+      margin-bottom: 0.5rem;
+    }
+    ul {
+      li {
+        margin-bottom: 0.2rem;
+      }
+    }
+  }
+}
+
+.title {
+  font-size: 14px;
+  font-weight: bold;
+}

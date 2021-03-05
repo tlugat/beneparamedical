@@ -1,6 +1,5 @@
 import doctor_small from '../../../assets/img/doctor-small'
 import styles from '../heroHome/HeroHome.module.scss';
-import dots from '../../../assets/logo/dots/dots.svg';
 const HeroHome = () => {
   return (
       <div className={styles.hero}>

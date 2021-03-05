@@ -6,7 +6,7 @@
   background: $main-color;
   position: absolute;
   top:0;
-  transform: translateX(100%);
+  right: -100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,7 +20,7 @@
   right: 2rem;
 }
 .navBar--active {
-  transform: translateX(0);
+  transform: translateX(-100%);
   transition: .2s;
 }
 .navList {
