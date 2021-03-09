@@ -14,6 +14,7 @@ const Navbar = ({menuIsActive, toggleMenu}) => {
         <li><NavLink to="/" exact activeClassName="navList__itemActive">Accueil</NavLink></li>
         <li><NavLink to="/podo-orthese" activeClassName="navList__itemActive">Podo-Orthèse</NavLink></li>
         <li><NavLink to="/orthopedie-generale" activeClassName="navList__itemActive" >Orthopédie générale</NavLink></li>
+        <li><NavLink to="/materiel" activeClassName="navList__itemActive">Matériel</NavLink></li>
         <li><NavLink to="/contact" activeClassName="navList__itemActive">Contact</NavLink></li>
       </ul>
       {desktop && (

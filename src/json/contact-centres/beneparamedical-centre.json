@@ -1,0 +1,23 @@
+{
+  "address": {
+    "address": "412 rue de la Juine, ZAC des Aulnaies, 45160 OLIVET ( à 200 mètres de la station de tram les Aulnaies )",
+    "tel": "02.38.53.78.02",
+    "fax": "02.38.68.06.98"
+  },
+  "hours": [
+    "lundi: 9h-13h/14h-18h",
+    "mardi: 9h-13h/14h-19h",
+    "mercredi: 9h-13h/14h-18h",
+    "jeudi: 9h-13h/14h-18h",
+    "vendredi: 9h-13h/14h-18h",
+    "samedi: 8h30-12h30",
+    "dimanche: fermé"
+  ],
+  "offices": [
+    {"county": "Loiret(45)", "address": ["Cabinet Boudeau – 18 rue léon Gambetta, 45200 Montargis – 1 mardi par quinzaine"]},
+    {"county": "Cher(18)", "address": ["Espace Médical – 113 Avenue François Mitterrand, 18000 Bourges – 1 Mardi par quinzaine"]},
+    {"county": "Eure-et-Loir(28)", "address": ["Béné Paramédical Centre – 56 rue des comtesses, 28000 Chartres – 1 Mercredi par quinzaine"]},
+    {"county": "Loir-et-Cher(41)", "address": ["Hôpital de Blois, service rééducation fonctionnelle – Mail Pierre Charlot, 41000 Blois – 1 Lundi par quinzaine"]},
+    {"county": "Yonne(89)", "address": ["CME Les petits Princes – Place de l’ancienne gare St Amatre, 89000 Auxerre", "Cabinet Pottier – 1 rue Henry Dunant, 89100 Sens"]}
+  ]
+}

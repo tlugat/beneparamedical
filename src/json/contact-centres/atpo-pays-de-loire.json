@@ -1,0 +1,21 @@
+{
+  "address": {
+    "address": "32 rue Pierre Martin, 72 100 LE MANS",
+    "tel": "02.43.24.27.92",
+    "fax": "02.43.77.07.38"
+  },
+  "hours": [
+    "lundi: 9h-13h/14h-18h",
+    "mardi: 9h-13h/14h-18h",
+    "mercredi: 9h-13h/14h-18h",
+    "jeudi: 9h-13h/14h-18h",
+    "vendredi: 9h-13h/14h-17h",
+    "samedi: fermé",
+    "dimanche: fermé"
+  ],
+  "offices": [
+    {"county": "Ornes(61)", "address": ["Centre hospitalier de l’Aigle, Pavillon Foisy – 10 rue du Dr Frinault, 61300 L’Aigle", "Maison médicale de Radon, chez Mr Laffont Kinésithérapeute – 10, route de la chapelle – 61200 Radon", "Centre de rééducation de Bagnoles de L’orne – 17 avenue du Dr.Aimez – 61140 Bagnoles de l’Ornes"]},
+    {"county": "Eure-et-Loir(28)", "address": ["Cabinet de Mr Amouroux Kinésithérapeute – 4 place du 11 aôut – 28400 Nogent le Rotrou"]},
+    {"county": "Calvados(14)", "address": ["Prothéor, Zone industrielle des Citis – 571 rue Marie Curie – 14200 Hérouville St Clair"]}
+  ]
+}
