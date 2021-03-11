@@ -14,8 +14,8 @@ const SubList = ({match}) => {
   };
 
   if(match.url === "/podo-orthese") {
-    items.links = ["/chaussures-orthopediques", "/ortheses-plantaires", "/appareil-podo-jambier", "/chaussures-therapeutiques", "/reparation", "/pneumaflex", "/outils-diagnostic-et-production"];
-    items.values = ["Chaussures orthopédiques", "Orthèses plantaires", "Appareil podo-jambier", "Chaussures thérapeutiques", "Réparation", "Centre de compétence Pneumaflex", "Outils de diagnostic et production"];
+    items.links = ["/chaussures-orthopediques", "/ortheses-plantaires", "/appareil-podo-jambier", "/chaussures-therapeutiques", "/reparations", "/pneumaflex", "/outils-diagnostic-et-production"];
+    items.values = ["Chaussures orthopédiques", "Orthèses plantaires", "Appareil podo-jambier", "Chaussures thérapeutiques", "Réparations", "Centre de compétence Pneumaflex", "Outils de diagnostic et production"];
     } else if(match.url === "/orthopedie-generale") {
       items.links = ["/membres-superieurs", "/cervicales", "/dos", "/abdomen", "/hanche", "/membres-inferieurs", "/contention-veineuse"];
       items.values = ["Membres supérieurs", "Les cervicales", "Le dos", "L'abdomen", "La hanche", "Les membres inférieurs", "Contention veineuse"];

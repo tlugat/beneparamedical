@@ -1,14 +1,14 @@
 import logo from '../../assets/logo/logo.svg';
-import BurgerIcon from '../../assets/logo/burgerMenu/BurgerIcon';
+import BurgerIcon from './burgerMenu/BurgerIcon';
 import styles from '../../components/header/Header.module.scss';
 
 
-const Header = ({toggleMenu}) => {
+const Header = ({toggleMenu, menuIsActive}) => {
 
   return (
     <header className={styles.header}>
       <img src={logo} alt="logo"/>
-      <BurgerIcon toggleMenu={toggleMenu}/>
+      <BurgerIcon menuIsActive={menuIsActive} toggleMenu={toggleMenu}/>
     </header>
   )
 }

@@ -1,0 +1,15 @@
+{
+  "accroche": "Nous fabriquons vos chaussures orthopédiques sur-mesure, dans nos ateliers. Nos collaborateurs conçoivent et réalisent en fonction de votre pathologie mais aussi de vos goûts un appareillage confortable.",
+  "pathologies": [
+    "Amputation",
+    "Désordre métatarso phalangien (Griffe d’orteil, halux valgus majeur)",
+    "Inégalité de longueur de membre inférieur",
+    "Problème neurologique",
+    "Pathologie diabétique",
+    "Instabilité majeure de la cheville",
+    "Déformation complexe morphologique",
+    "Œdème non appareillable de série (trouble volumétrique)",
+    "Différence de longueur des membres inférieurs (supérieur a 20mm)",
+    "Pathologie Inflammatoire"
+  ]
+}

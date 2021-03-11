@@ -20,7 +20,7 @@ const Banner = ({match}) => {
       break;
     case "/materiel":
       background = materiel_img;
-      title = "Matériel";
+      title = "Matériel médical";
       break;
     case "/contact":
       background = contact_img;

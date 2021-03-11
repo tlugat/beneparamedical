@@ -25,7 +25,7 @@ function App() {
   return (
     <div style={menuIsActive ? {height: 100 + 'vh'} : {height: 'auto'}} className={styles.App}>
       <Router>
-        <Header toggleMenu={toggleMenu}/>
+        <Header menuIsActive={menuIsActive} toggleMenu={toggleMenu}/>
         <Navbar toggleMenu={toggleMenu} menuIsActive={menuIsActive}/>
         <Route exact path="/" component={Home}></Route>
         <Route path="/podo-orthese" component={PodoOrthese}></Route>
@@ -34,7 +34,6 @@ function App() {
         <Route path="/contact" component={Contact}></Route>
         <Footer/>
       </Router>
-      
     </div>
   );
 }
